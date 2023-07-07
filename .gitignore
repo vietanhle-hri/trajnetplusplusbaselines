@@ -1,12 +1,12 @@
-data/
-dest/
-dest_new/
-aicrowd_submissions/
-goal_files/
+#data/
+#dest/
+#dest_new/
+#aicrowd_submissions/
+#goal_files/
 
-DATA_BLOCK/
-output/
-OUTPUT_BLOCK/
+#DATA_BLOCK/
+#output/
+#OUTPUT_BLOCK/
 socialforce-master/
 profile_trace*.json
 Python-RVO2-master/

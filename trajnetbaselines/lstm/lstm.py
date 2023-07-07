@@ -297,7 +297,7 @@ class LSTMPredictor(object):
             scene_goal = torch.Tensor(scene_goal) #.to(device)
             batch_split = torch.Tensor(batch_split).long()
 
-            multimodal_outputs = {}
+            multimodal_outputs = {} # Initialize a dictionary for outputs
             for num_p in range(modes):
                 # _, output_scenes = self.model(xy[start_length:obs_length], scene_goal, batch_split, xy[obs_length:-1].clone())
                 _, output_scenes = self.model(xy[start_length:obs_length], scene_goal, batch_split, n_predict=n_predict)
